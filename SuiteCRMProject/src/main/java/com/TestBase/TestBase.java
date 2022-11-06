@@ -36,7 +36,7 @@ public class TestBase
 		//launch browser
 		switch(browser.toLowerCase())
 		{
-		case "chrome":
+		case "Chrome":
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			break;
